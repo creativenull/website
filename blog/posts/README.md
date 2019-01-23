@@ -1,0 +1,8 @@
+---
+title: Posts
+---
+
+<PostsList/>
+
+---
+<Footer/>
