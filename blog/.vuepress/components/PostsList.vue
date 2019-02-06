@@ -23,6 +23,11 @@ export default {
           posts.push(el.frontmatter)
       })
 
+      // sort array by date
+      posts.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date)
+      })
+
       return posts
     }
   }
