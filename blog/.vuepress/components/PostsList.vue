@@ -4,7 +4,9 @@
       <router-link :to="post.permalink">
         <h1 class="title">{{ post.title }}</h1>
       </router-link>
-      <p class="date">{{ post.date }}</p>
+      <div class="post-meta-props">
+        <span class="post-meta-date">Posted on {{ post.date }}</span> | <span class="post-meta-author">By {{ post.author }}</span>
+      </div>
       <p class="description">{{ post.description }} <a :href="post.permalink">Read More</a></p>
     </div>
   </div>

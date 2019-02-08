@@ -2,11 +2,13 @@
 title: Embedded development environment in Vim (2019) - Part 1
 description: There has been a lot of tutorials on setting up vim for a Python/JavaScript/Java/C/C++ environment, but I did not find a variety of tutorials on how to setup a C/C++ environment for embedded development.
 date: Feb 8, 2019
+author: Arnold Chand
 permalink: /posts/2019/02/08/embedded-dev-env-in-vim-2019-p1.html
 isPost: true
 ---
 
-# Embedded development environment in Vim (2019) - Part 1
+<PostHeader/>
+
 ::: tip Info
 This is a two part series on how my vim is setup for embedded systems development. The first part shows what vim plugins I use and how I have them setup, while part two will cover the cmake portion on setting up a build workflow and a template.
 :::
