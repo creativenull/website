@@ -1,5 +1,5 @@
 module.exports = {
-  title: "The Creative Nobody",
+  title: "Arnold Chand",
   description: "A blog on insights, guides and thoughts on hardware and IoT",
   themeConfig: {
     nav: [
