@@ -89,8 +89,4 @@ This should be it on the vim side of things. In the next part I will show my set
 [supertab-link]: https://github.com/ervandew/supertab
 [clang-link]: https://clang.llvm.org/
 
----
-<QuickAbout/>
-
----
-<Footer/>
+<PostFooter/>

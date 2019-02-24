@@ -98,8 +98,4 @@ Probably the ony time I ever had to work a lot on a class. This class had me occ
 
 [Link to code](https://github.com/thecreativenobody/wmu-engr/tree/master/micro-controllers)
 
----
-<QuickAbout/>
-
----
-<Footer/>
+<PostFooter/>
