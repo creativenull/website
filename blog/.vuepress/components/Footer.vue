@@ -1,16 +1,8 @@
 <template>
-  <div class="footer">
-    <span class="footer-content">Copyright &copy; Arnold Chand (thecreativenobody) | Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a></span>
-  </div>
+  <footer class="tcn__footer">
+    2019 Arnold Chand (thecreativenobody) | Powered by <a class="footer__link" href="https://vuepress.vuejs.org" target="_blank">VuePress</a>
+  </footer>
 </template>
 
 <style>
-.footer {
-  text-align: center;
-}
-
-.footer-content {
-  font-size: 0.85em;
-  color: #777;
-}
 </style>

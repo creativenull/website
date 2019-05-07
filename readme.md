@@ -1,4 +1,4 @@
-# Website source files
-This is the original source file for the website [thecreativenobody.github.io](https://thecreativenobody.github.io)
+# Website
+The original source for the website [thecreativenobody.github.io](https://thecreativenobody.github.io)
 
-Build using VuePress.
+Build using [VuePress](https://vuepress.vuejs.org).

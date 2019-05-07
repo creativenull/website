@@ -7,6 +7,10 @@
     "blog:build": "vuepress build blog"
   },
   "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^0.7.4",
     "vuepress": "^1.0.0-alpha.30"
   }
 }
