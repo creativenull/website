@@ -1,7 +1,4 @@
 ---
 home: true
+layout: FrontPageLayout
 ---
-
----
-<PostsList/>
-<Footer/>

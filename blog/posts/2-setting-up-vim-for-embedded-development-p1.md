@@ -1,6 +1,6 @@
 ---
 title: Embedded development environment in Vim (2019) - Part 1
-description: There has been a lot of tutorials on setting up vim for a Python/JavaScript/Java/C/C++ environment, but I did not find a variety of tutorials on how to setup a C/C++ environment for embedded development.
+description: There has been a lot of tutorials on setting up vim for a Python/JavaScript/Java/C/C++ environment, but I did not find a variety of tutorials on how to setup a C/C++ environment for embedded development. I did, however, find one great post.. where he did explain how to setup for one. Although his post does a great job explaining, there were still some things missing that I want to add for my embedded development environment. Things that I wanted to work for my setup
 date: Feb 8, 2019
 author: Arnold Chand
 permalink: /posts/2019/02/08/embedded-dev-env-in-vim-2019-p1.html
@@ -88,5 +88,3 @@ This should be it on the vim side of things. In the next part I will show my set
 [deoplete-link]: https://github.com/Shougo/deoplete.nvim
 [supertab-link]: https://github.com/ervandew/supertab
 [clang-link]: https://clang.llvm.org/
-
-<PostFooter/>

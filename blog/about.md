@@ -2,8 +2,7 @@
 title: About
 ---
 
-# About, Arnold Chand
+# About, Me?
 
 
 ---
-<Footer/>

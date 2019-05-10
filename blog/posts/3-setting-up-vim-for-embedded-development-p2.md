@@ -1,6 +1,6 @@
 ---
 title: Embedded development environment in Vim (2019) - Part 2
-description: This is the second part of a two-part series on setting up vim for embedded development. This continues where we left off and start our build process using `cmake`.
+description: Last time, I showed you the plugins I used and setup their settings in a .vimrc (for vim) or init.vim (for nvim) file. This second part will guide you through setting up `cmake` and making sure our Langauge Server/Client is able to work properly with our custom compiler.
 date: Mar 5, 2019
 author: Arnold Chand
 permalink: /posts/2019/03/05/embedded-dev-env-in-vim-2019-p2.html
@@ -227,5 +227,3 @@ This concludes the 2nd part of the series - Embedded development environment in 
 [part-1]: https://thecreativenobody.github.io/posts/2019/02/08/embedded-dev-env-in-vim-2019-p1.html
 [arm-gcc-link]: https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
 [tiva-link]: http://software-dl.ti.com/tiva-c/SW-TM4C/latest/index_FDS.html
-
-<PostFooter/>

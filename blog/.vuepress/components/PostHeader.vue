@@ -12,8 +12,6 @@ export default {
   props: ["page"],
   
   computed: {
-
-    // Post meta props to be shown before the post
     post() {
       return {
         title: this.$page.frontmatter.title,

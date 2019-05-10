@@ -1,6 +1,6 @@
 ---
 title: Hello World - Projects
-description: This post is to introduce a bunch of projects I've done during my academic years at Andrews University and Western Michigan University.
+description: As an addition to who I am, I will be also posting my projects that I've done during my academic years. Especially those that were highlights of my years in college. There were a lot of projects that I've done, but there were few that I completed or am proud of. Below are my list of projects along with their links for more information, which is also posted to my Github account.
 date: Jan 22, 2019
 author: Arnold Chand
 permalink: /posts/2019/01/22/projects.html
@@ -97,5 +97,3 @@ Probably the ony time I ever had to work a lot on a class. This class had me occ
 + I2C
 
 [Link to code](https://github.com/thecreativenobody/wmu-engr/tree/master/micro-controllers)
-
-<PostFooter/>
