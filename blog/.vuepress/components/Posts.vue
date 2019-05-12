@@ -18,8 +18,6 @@ export default {
   computed: {
     posts() {
       let posts = []
-
-      console.log(this.$site.pages)
       
       // select only the posts, via frontmatter
       this.$site.pages.forEach(el => {

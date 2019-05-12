@@ -11,10 +11,6 @@ isPost: true
 
 As an addition to who I am, I will be also posting my projects that I've done during my academic years. Especially those that were highlights of my years in college. There were a lot of projects that I've done, but there were few that I completed or am proud of. Below are my list of projects along with their links for more information, which is also posted to my Github account.
 
-::: tip Note
-For more info on my projects you can send me a request for the report. Only if you have a copy of my resume.
-:::
-
 ## University of the Southern Caribbean*
 Actually, I was pursuing my computer science degree at USC - Trinidad and Tobago, before I transferred to Andrews.
 

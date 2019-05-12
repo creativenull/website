@@ -2,7 +2,4 @@
 title: Posts
 ---
 
-<PostsList/>
-
----
-<Footer/>
+<Posts />

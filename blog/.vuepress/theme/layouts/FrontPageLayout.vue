@@ -1,8 +1,7 @@
 <template>
 <div>
-
   <!-- HEADER -->
-  <Header />
+  <Header :showBanner="true" />
 
   <!-- BODY -->
   <section class="tcn__body">

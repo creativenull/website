@@ -10,7 +10,7 @@
       <h1><a class="text-white no-underline" href="/">Arnold <span class="text-blue-dark">Chand</span></a></h1>
     </div>
 
-    <div class="header__banner flex items-center justify-center shadow-md">
+    <div class="header__banner flex items-center justify-center shadow-md" :class="displayBanner">
       <div class="banner__block">
         <h1 class="banner__title text-6xl text-center font-open"><span class="text-blue-dark">Creative</span> Nobody</h1>
         <p class="banner__subtitle text-xl text-center font-open-light">{{ $site.description }}</p>
@@ -18,6 +18,24 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  props: {
+    showBanner: Boolean
+  },
+
+  computed: {
+    displayBanner() {
+      if (this.showBanner) {
+        return "banner-visible"
+      } else {
+        return "banner-hide"
+      }
+    }
+  }
+}
+</script>
 
 <style lang="stylus" scoped>
 .header__menu
@@ -35,4 +53,10 @@
 
 .banner__block
   color: #ffffff
+
+.banner-visible
+  display: default
+
+.banner-hide
+  display: none
 </style>

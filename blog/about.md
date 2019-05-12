@@ -3,6 +3,3 @@ title: About
 ---
 
 # About, Me?
-
-
----

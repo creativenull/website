@@ -1,16 +1,23 @@
 <template>
-  <div class="post-props">
-    <h1 class="post-title">{{ post.title }}</h1>
-    <div class="post-meta-props">
-      <span class="post-meta-date">Posted on {{ post.date }}</span> | <span class="post-meta-author">By {{ post.author }}</span>
+  <div class="post__props">
+    <h1 class="post__title">{{ post.title }}</h1>
+    <div class="post__block font-open-light text-sm text-right">
+      <span class="post__date">Posted on {{ post.date }}</span> | <span class="post__author">By {{ post.author }}</span>
     </div>
   </div>
 </template>
 
+<style lang="stylus">
+.post__title
+  margin: 10px 0
+  color: #222
+
+.post__block
+  margin: 10px 0
+</style>
+
 <script>
 export default {
-  props: ["page"],
-  
   computed: {
     post() {
       return {

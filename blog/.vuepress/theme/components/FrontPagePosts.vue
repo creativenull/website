@@ -23,12 +23,11 @@ export default {
       colors: ["blue", "green", "red"]
     }
   },
+
   computed: {
     posts() {
       let posts = []
       let count = 0
-
-      console.log(this.$site)
 
       this.$site.pages.forEach((el) => {
         if (el.frontmatter.isPost && count < 3) {
