@@ -6,7 +6,7 @@
         <router-link class="text-white" :to="post.permalink">{{ post.title }}</router-link>
       </h2>
 
-      <p class="color-post__info text-center">{{ post.date }} | {{ post.author }}</p>
+      <p class="color-post__info text-center font-open-light">{{ post.date }} | {{ post.author }}</p>
 
       <div class="color-post__content">
         {{ post.description }} <a class="text-white" :href="post.permalink">Read More</a>

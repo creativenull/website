@@ -10,7 +10,9 @@
     "autoprefixer": "^9.5.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
+    "prismjs": "^1.16.0",
     "tailwindcss": "^0.7.4",
-    "vuepress": "^1.0.0-alpha.30"
+    "vuepress": "^1.0.0-alpha.30",
+    "vuepress-plugin-container": "^2.0.1"
   }
 }

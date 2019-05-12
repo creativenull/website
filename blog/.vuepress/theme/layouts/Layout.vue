@@ -29,14 +29,22 @@ export default {
 @import "../styles/theme.styl"
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300,400")
 
-.post > p
+@import "~prismjs/themes/prism-tomorrow.css"
+
+.post > p,
+.post > ul,
+.post > ol
   margin: 15px 0
   color: #222
+  line-height: 1.5em
+
 
 .post > h2,
-.post > h2 > a
+.post > h3,
+.post > h4
   color: #333
 
-.post > h2 > a
-  display: none
+.post > * > a
+  color: #333
+
 </style>

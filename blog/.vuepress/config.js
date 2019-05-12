@@ -7,9 +7,9 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "About", link: "/about" },
-      { text: "Posts", link: "/posts/" }
-      //{ text: "Github", link: "https://github.com/thecreativenobody" },
-      //{ text: "LinkedIn", link: "https://linkedin.com/in/arnoldjchand" }
+      { text: "Posts", link: "/posts/" },
+      { text: "Github", link: "https://github.com/thecreativenobody" },
+      { text: "LinkedIn", link: "https://linkedin.com/in/arnoldjchand" },
     ]
   }
 }
