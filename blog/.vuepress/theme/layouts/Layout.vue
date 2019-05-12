@@ -29,20 +29,6 @@ export default {
 @import "../styles/theme.styl"
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300,400")
 
-@import "../styles/toc.styl"
-@import "../styles/code.styl"
-@import "../styles/custom-blocks.styl"
-
-.font-noto
-  font-family: "Noto Serif", serif
-
-.font-open
-  font-family: "Open Sans", sans-serif
-
-.font-open-light
-  font-family: "Open Sans", sans-serif
-  font-weight: 300
-
 .post > p
   margin: 15px 0
   color: #222

@@ -28,16 +28,11 @@ export default {
 </script>
 
 <style lang="stylus">
-@import "../styles/theme.styl";
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300,400');
+@import "../styles/theme.styl"
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300,400")
 
-.font-noto
-  font-family: 'Noto Serif', serif
+@import "../styles/toc.styl"
+@import "../styles/code.styl"
+@import "../styles/custom-blocks.styl"
 
-.font-open
-  font-family: 'Open Sans', sans-serif
-
-.font-open-light
-  font-family: 'Open Sans', sans-serif
-  font-weight: 300
 </style>
