@@ -27,9 +27,11 @@ export default {
 
 <style lang="stylus">
 @import "../styles/theme.styl"
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300,400")
-
 @import "~prismjs/themes/prism-tomorrow.css"
+
+.tcn__body
+  margin-top: 10px
+  margin-bottom: 10px
 
 .post > p,
 .post > ul,

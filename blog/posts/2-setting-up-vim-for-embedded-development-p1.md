@@ -9,6 +9,10 @@ isPost: true
 
 <PostHeader/>
 
+::: tip Info
+This is a two part series on how my vim is setup for embedded systems development. The first part shows what vim plugins I use and how I have them setup, while part two will cover the cmake portion on setting up a build workflow and a template.
+:::
+
 There has been a lot of tutorials on setting up vim for a Python/JavaScript/Java/C/C++ environment, but I did not find a variety of tutorials on how to setup a C/C++ environment for embedded development. I did, however, find one great post [written by Alexey][ref-1] where he did explain how to setup for one. Although his post does a great job explaining, there were still some things missing that I want to add for my embedded development environment. Things that I wanted to work for my setup:
 
 + Using `cmake` instead of `make`.

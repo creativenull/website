@@ -29,10 +29,5 @@ export default {
 
 <style lang="stylus">
 @import "../styles/theme.styl"
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:300,400")
-
-@import "../styles/toc.styl"
-@import "../styles/code.styl"
-@import "../styles/custom-blocks.styl"
 
 </style>

@@ -4,8 +4,8 @@
   <Header :showBanner="false" />
 
   <!-- BODY -->
-  <section class="tcn__body container mx-auto flex justify-center items-center">
-    <h2>Four'o Four. I'm not hiding anythin' >_></h2>
+  <section class="tcn__body container mx-auto">
+    <Content class="page font-noto" />
   </section>
   
   <!-- FOOTER -->
@@ -29,6 +29,25 @@ export default {
 @import "../styles/theme.styl"
 
 .tcn__body
-  height: 100vh
-  width: 100%
+  margin-top: 10px
+  margin-bottom: 10px
+  min-height: 100vh
+
+.page > p,
+.page > ul,
+.page > ol
+  margin: 15px 0
+  color: #222
+  line-height: 1.5em
+
+.page > h1,
+.page > h2,
+.page > h3,
+.page > h4
+  color: #333
+
+.page > * > a
+  color: #333
+
 </style>
+

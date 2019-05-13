@@ -1,6 +1,6 @@
 ---
 title: Embedded development environment in Vim (2019) - Part 2
-description: Last time, I showed you the plugins I used and setup their settings in a .vimrc (for vim) or init.vim (for nvim) file. This second part will guide you through setting up `cmake` and making sure our Langauge Server/Client is able to work properly with our custom compiler.
+description: Last time, I showed you the plugins I used and setup their settings in a .vimrc (for vim) or init.vim (for nvim) file. This second part will guide you through setting up `cmake` and making sure our Langauge Server/Client is able to work properly with our custom compiler
 date: Mar 5, 2019
 author: Arnold Chand
 permalink: /posts/2019/03/05/embedded-dev-env-in-vim-2019-p2.html

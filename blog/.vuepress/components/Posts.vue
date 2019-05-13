@@ -1,20 +1,19 @@
 <template>
   <div class="posts" v-if="posts.length != 0">
     <div class="post" v-for="post in posts">
-      <router-link :to="post.permalink">
-        <h1 class="title">{{ post.title }}</h1>
+      <router-link class="post__title" :to="post.permalink">
+        <h1>{{ post.title }}</h1>
       </router-link>
-      <div class="post-meta-props">
-        <span class="post-meta-date">Posted on {{ post.date }}</span> | <span class="post-meta-author">By {{ post.author }}</span>
+      <div class="post__info font-open-light">
+        {{ post.date }}
       </div>
-      <p class="description">{{ post.description }} <a :href="post.permalink">Read More</a></p>
+      <p class="post__content">{{ post.description }}... <a :href="post.permalink">Read More</a></p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["page"],
   computed: {
     posts() {
       let posts = []
@@ -35,3 +34,23 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.post__content
+  margin: 15px 0
+  color: #222
+  line-height: 1.5em
+
+.post__title
+  color: #333
+  text-decoration: none
+
+.post__title:hover
+  text-decoration: underline
+
+.post__title > h1
+  font-weight: normal
+
+.post > * > a
+  color: #333
+</style>
