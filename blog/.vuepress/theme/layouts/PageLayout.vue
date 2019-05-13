@@ -4,7 +4,7 @@
   <Header :showBanner="false" />
 
   <!-- BODY -->
-  <section class="tcn__body container mx-auto px-2">
+  <section class="tcn__body container mx-auto px-2 md:px-5">
     <Content class="page font-noto" />
   </section>
   
@@ -48,7 +48,6 @@ export default {
 
 .page > h1
   font-size: 1.875rem
-  text-align: center
 
 .page > h2
   font-size: 1.5em

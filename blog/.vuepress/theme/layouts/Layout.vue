@@ -4,7 +4,7 @@
   <Header :showBanner="false" />
 
   <!-- BODY -->
-  <section class="tcn__body container mx-auto px-2">
+  <section class="tcn__body container mx-auto px-2 md:px-5">
     <Content class="post font-noto" />
   </section>
   

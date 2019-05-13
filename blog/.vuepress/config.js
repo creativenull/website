@@ -10,7 +10,7 @@ module.exports = {
     ]
   },
   postcss: {
-    plugins: [require("tailwindcss")("./tailwind.js"), require("autoprefixer")]
+    plugins: [require("tailwindcss"), require("autoprefixer")]
   },
   plugins: [
     ["vuepress-plugin-container", {
