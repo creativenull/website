@@ -1,19 +1,19 @@
 <template>
-  <header class="tcn__header">
-    <div class="header__menu px-4 flex items-center justify-between bg-black shadow-md">
+  <header class="tcn__header font-open">
+    <div class="header__menu px-4 flex flex-col-reverse md:flex-row md:justify-between items-center bg-gray-900 shadow-md">
       <ul class="menu__list list-reset">
-        <li v-for="item in $site.themeConfig.nav" class="menu__item inline">
-          <a class="menu__link px-2 text-lg no-underline text-white" :href="item.link">{{ item.text }}</a>
+        <li v-for="item in $site.themeConfig.nav" class="menu__item md:inline">
+          <a class="menu__link px-2 no-underline text-lg text-white" :href="item.link">{{ item.text }}</a>
         </li>
       </ul>
 
-      <h1><a class="text-white no-underline" href="/">Arnold <span class="text-blue-dark">Chand</span></a></h1>
+      <h1><a class="text-white text-3xl no-underline font-bold" href="/">Arnold <span class="text-blue-600">Chand</span></a></h1>
     </div>
 
-    <div class="header__banner flex items-center justify-center" :class="displayBanner">
+    <div class="header__banner flex items-center justify-center" v-if="showBanner">
       <div class="banner__block">
-        <h1 class="banner__title text-6xl sm:text-3xl text-center font-open"><span class="text-blue-dark">Creative</span> Nobody</h1>
-        <p class="banner__subtitle text-xl text-center font-open-light">{{ $site.description }}</p>
+        <h1 class="banner__title text-4xl md:text-6xl text-center"><span class="text-blue-600">Creative</span> Nobody</h1>
+        <p class="banner__subtitle text-sm md:text-xl text-center font-open-light">{{ $site.description }}</p>
       </div>
     </div>
   </header>
@@ -27,11 +27,7 @@ export default {
 
   computed: {
     displayBanner() {
-      if (this.showBanner) {
-        return "banner-visible"
-      } else {
-        return "banner-hide"
-      }
+      return this.showBanner
     }
   }
 }
@@ -39,7 +35,6 @@ export default {
 
 <style lang="stylus" scoped>
 .header__menu
-  height: 80px
 
 .menu__link:hover
   text-decoration: underline
@@ -53,10 +48,4 @@ export default {
 
 .banner__block
   color: #ffffff
-
-.banner-visible
-  display: default
-
-.banner-hide
-  display: none
 </style>

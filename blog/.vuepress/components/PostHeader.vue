@@ -1,6 +1,6 @@
 <template>
   <div class="post__props">
-    <h1 class="post__title">{{ post.title }}</h1>
+    <h1 class="post__title text-3xl">{{ post.title }}</h1>
     <div class="post__block font-open-light text-sm text-right">
       <span class="post__date">Posted on {{ post.date }}</span> | <span class="post__author">By {{ post.author }}</span>
     </div>

@@ -1,9 +1,9 @@
 <template>
 <div>
-  <div v-for="(post, i) in posts" :class="'body__color-post bg-' + colors[i] + '-dark text-' + colors[i] + '-lightest'">
+  <div v-for="(post, i) in posts" :class="'body__color-post bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
     <div class="color-post__block mx-auto container font-noto">
       <h2 class="text-center">
-        <router-link class="text-white" :to="post.permalink">{{ post.title }}</router-link>
+        <router-link class="text-white text-3xl hover:underline" :to="post.permalink">{{ post.title }}</router-link>
       </h2>
 
       <p class="color-post__info text-center font-open-light">{{ post.date }} | {{ post.author }}</p>

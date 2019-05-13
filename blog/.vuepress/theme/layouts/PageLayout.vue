@@ -46,6 +46,18 @@ export default {
 .page > h4
   color: #333
 
+.page > h1
+  font-size: 1.875rem
+
+.page > h2
+  font-size: 1.5em
+
+.page > h3
+  font-size: 1.25rem
+
+.page > h4
+  font-size: 1.125rem
+
 .page > * > a
   color: #333
 

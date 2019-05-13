@@ -39,14 +39,30 @@ export default {
   margin: 15px 0
   color: #222
   line-height: 1.5em
+  font-size: 1rem
 
+.post > h2 > a,
+.post > h3 > a,
+.post > h4 > a
+  display: none
+
+.post > h2
+  font-size: 1.5em
+
+.post > h3
+  font-size: 1.25rem
+
+.post > h4
+  font-size: 1.125rem
 
 .post > h2,
 .post > h3,
 .post > h4
   color: #333
 
+
 .post > * > a
   color: #333
+  text-decoration: underline
 
 </style>

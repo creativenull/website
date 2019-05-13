@@ -44,6 +44,7 @@ export default {
 .post__title
   color: #333
   text-decoration: none
+  font-size: 1.5rem
 
 .post__title:hover
   text-decoration: underline
