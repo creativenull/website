@@ -7,15 +7,6 @@
   </div>
 </template>
 
-<style lang="stylus">
-.post__title
-  margin: 10px 0
-  color: #222
-
-.post__block
-  margin: 10px 0
-</style>
-
 <script>
 export default {
   computed: {
@@ -29,3 +20,12 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.post__title
+  margin: 10px 0
+  color: #222
+
+.post__block
+  margin: 10px 0
+</style>

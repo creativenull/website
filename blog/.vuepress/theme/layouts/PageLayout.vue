@@ -4,8 +4,8 @@
   <Header :showBanner="false" />
 
   <!-- BODY -->
-  <section class="tcn__body container mx-auto px-2 md:px-5">
-    <Content class="page font-noto" />
+  <section class="app__body page font-noto container mx-auto px-2 md:px-5">
+    <Content />
   </section>
   
   <!-- FOOTER -->
@@ -26,42 +26,40 @@ export default {
 </script>
 
 <style lang="stylus">
-@import "../styles/theme.styl"
-
-.tcn__body
-  margin-top: 10px
-  margin-bottom: 10px
+.app__body
   min-height: 100vh
 
-.page > p,
-.page > ul,
-.page > ol
+.page > div
+  padding: 10px 0
+
+.page > div > p,
+.page > div > ul,
+.page > div > ol
   margin: 15px 0
   color: #222
   line-height: 1.5em
 
-.page > h1,
-.page > h2,
-.page > h3,
-.page > h4
+.page > div > h1,
+.page > div > h2,
+.page > div > h3,
+.page > div > h4
   color: #333
 
-.page > h1
+.page > div > h1
   font-size: 1.875rem
 
-.page > h2
+.page > div > h2
   font-size: 1.5em
 
-.page > h3
+.page > div > h3
   font-size: 1.25rem
 
-.page > h4
+.page > div > h4
   font-size: 1.125rem
 
-.page > h1 > a,
-.page > h2 > a,
-.page > h3 > a
+.page > div > h1 > a,
+.page > div > h2 > a,
+.page > div > h3 > a
   color: #333
   display: none
-
 </style>

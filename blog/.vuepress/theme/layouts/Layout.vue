@@ -4,8 +4,8 @@
   <Header :showBanner="false" />
 
   <!-- BODY -->
-  <section class="tcn__body container mx-auto px-2 md:px-5">
-    <Content class="post font-noto" />
+  <section class="app__body post font-noto container mx-auto px-2 md:px-5">
+    <Content />
   </section>
   
   <!-- FOOTER -->
@@ -26,43 +26,44 @@ export default {
 </script>
 
 <style lang="stylus">
-@import "../styles/theme.styl"
-@import "~prismjs/themes/prism-tomorrow.css"
+.app__body
+  min-height: 100vh
 
-.tcn__body
-  margin-top: 10px
-  margin-bottom: 10px
+.post
+  padding: 10px 0
 
-.post > p,
-.post > ul,
-.post > ol
+.post > div > p,
+.post > div > ul,
+.post > div > ol
   margin: 15px 0
   color: #222
   line-height: 1.5em
   font-size: 1rem
 
-.post > h2 > a,
-.post > h3 > a,
-.post > h4 > a
+.post > div > h1 > a,
+.post > div > h2 > a,
+.post > div > h3 > a,
+.post > div > h4 > a
   display: none
 
-.post > h2
+.post > div > h1
+  font-size: 1.875rem
+
+.post > div > h2
   font-size: 1.5em
 
-.post > h3
+.post > div > h3
   font-size: 1.25rem
 
-.post > h4
+.post > div > h4
   font-size: 1.125rem
 
-.post > h2,
-.post > h3,
-.post > h4
+.post > div > h2,
+.post > div > h3,
+.post > div > h4
   color: #333
 
-
-.post > * > a
+.post > div > * > a
   color: #333
   text-decoration: underline
-
 </style>

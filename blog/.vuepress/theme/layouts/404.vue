@@ -4,7 +4,7 @@
   <Header :showBanner="false" />
 
   <!-- BODY -->
-  <section class="tcn__body container mx-auto flex justify-center items-center">
+  <section class="app__body container mx-auto flex justify-center items-center">
     <h2>Four'o Four. I'm not hiding anythin' >_></h2>
   </section>
   
@@ -26,9 +26,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@import "../styles/theme.styl"
-
-.tcn__body
-  height: 100vh
-  width: 100%
+.app__body
+  min-height: 100vh
 </style>

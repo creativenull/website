@@ -4,7 +4,7 @@
   <Header :showBanner="true" />
 
   <!-- BODY -->
-  <section class="tcn__body">
+  <section class="app__body">
     <FrontPagePosts />
   </section>
   
@@ -26,8 +26,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-@import "../styles/theme.styl"
-
-</style>
