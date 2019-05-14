@@ -5,7 +5,7 @@
 
   <!-- BODY -->
   <section class="app__body container mx-auto flex justify-center items-center">
-    <h2>Four'o Four. I'm not hiding anythin' >_></h2>
+    <h1 class="text-2xl">Four'o Four. I'm not hiding anythin' >_></h1>
   </section>
   
   <!-- FOOTER -->
