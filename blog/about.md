@@ -4,4 +4,4 @@ layout: PageLayout
 ---
 
 # About, Me?
-Electrical engineer with over a year expereince working with electronics, embedded systems and software. In my spare time I either help contribute to Github projects, building IoT apps or play games.
+Engineer who is passionate about building low-level embedded system, hardware, firmware drivers, web, mobile, front-end development. On my spare time, I enjoy going on walks, play games or just play more games.

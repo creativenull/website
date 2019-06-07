@@ -5,25 +5,23 @@ module.exports = {
     nav: [
       {
         text: "About",
-        link: "/about"
+        link: "/about",
       },
       {
         text: "Resume",
-        link: "/resume"
+        link: "/resume",
       },
       {
         text: "Posts",
-        link: "/posts/"
+        link: "/posts",
       },
       {
         text: "Github",
         link: "https://github.com/thecreativenobody",
-        target: "_blank"
       },
       {
         text: "LinkedIn",
         link: "https://linkedin.com/in/arnoldjchand",
-        target: "_blank"
       },
     ]
   },
