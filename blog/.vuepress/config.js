@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Creative Nobody",
-  description: "A blog on electronics, software and everything in-between.",
+  title: "CreativeNobu",
+  description: "A blog on hardware, software, thoughts, design, etc.",
   themeConfig: {
     nav: [
       {
@@ -19,23 +19,19 @@ module.exports = {
         text: "Github",
         link: "https://github.com/thecreativenobody",
       },
-      {
-        text: "LinkedIn",
-        link: "https://linkedin.com/in/arnoldjchand",
-      },
-    ]
+    ],
   },
   postcss: {
     plugins: [
       require("tailwindcss"),
       require("autoprefixer"),
-    ]
+    ],
   },
   plugins: [
     ["vuepress-plugin-container", {
       type: "tip",
       before: info => `<div class="tip font-open"><p class="tip__title font-bold">${info}</p>`,
       after: "</div>",
-    }]
+    }],
   ],
-}
+};

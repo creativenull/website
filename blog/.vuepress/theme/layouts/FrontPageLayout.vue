@@ -1,16 +1,16 @@
-<template>
-<div>
-  <!-- HEADER -->
-  <Header :showBanner="true" />
+<template lang="html">
+  <div>
+    <!-- HEADER -->
+    <Header :showBanner="true" />
 
-  <!-- BODY -->
-  <section class="app__body">
-    <FrontPagePosts />
-  </section>
-  
-  <!-- FOOTER -->
-  <Footer />
-</div>
+    <!-- BODY -->
+    <section class="app__body">
+      <FrontPagePosts />
+    </section>
+    
+    <!-- FOOTER -->
+    <Footer />
+  </div>
 </template>
 
 <script>
