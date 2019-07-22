@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         text: "Github",
-        link: "https://github.com/thecreativenobody",
+        link: "https://github.com/creativenobu",
       },
     ],
   },
