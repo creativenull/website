@@ -1,19 +1,19 @@
 <template>
-<div>
-  <div v-for="(post, i) in posts" :class="'body__color-post bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
-    <div class="color-post__block container mx-auto font-noto">
-      <h1 class="md:text-center">
-        <router-link class="text-white text-2xl md:text-3xl hover:underline" :to="post.permalink">{{ post.title }}</router-link>
-      </h1>
+  <div>
+    <div v-for="(post, i) in posts" :class="'body__color-post bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
+      <div class="color-post__block container mx-auto font-noto">
+        <h1 class="md:text-center">
+          <router-link class="text-white text-2xl md:text-3xl hover:underline" :to="post.permalink">{{ post.title }}</router-link>
+        </h1>
 
-      <p class="color-post__info py-2 md:text-center font-open-light">{{ post.date }} | {{ post.author }}</p>
+        <p class="color-post__info py-2 md:text-center font-open-light">{{ post.date }} | {{ post.author }}</p>
 
-      <div class="color-post__content">
-        {{ post.description }}... <a class="text-white underline hover:no-underline" :href="post.permalink">Read More</a>
+        <div class="color-post__content">
+          {{ post.description }}... <a class="text-white underline hover:no-underline" :href="post.permalink">Read More</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>

@@ -1,16 +1,16 @@
 <template>
-<div>
-  <!-- HEADER -->
-  <Header :showBanner="false" />
+  <div>
+    <!-- HEADER -->
+    <Header :showBanner="false" />
 
-  <!-- BODY -->
-  <section class="app__body post font-noto container mx-auto px-2 md:px-5">
-    <Content />
-  </section>
-  
-  <!-- FOOTER -->
-  <Footer />
-</div>
+    <!-- BODY -->
+    <section class="app__body post font-noto container mx-auto px-2 md:px-5">
+      <Content />
+    </section>
+
+    <!-- FOOTER -->
+    <Footer />
+  </div>
 </template>
 
 <script>

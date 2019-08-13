@@ -1,16 +1,16 @@
 <template>
-<div>
-  <!-- HEADER -->
-  <Header :showBanner="false" />
+  <div>
+    <!-- HEADER -->
+    <Header :showBanner="false" />
 
-  <!-- BODY -->
-  <section class="app__body container mx-auto flex justify-center items-center text-center px-2">
-    <h1 class="text-2xl">Four'o Four. You would think I'm hiding something, but I'm not I promise! >_></h1>
-  </section>
-  
-  <!-- FOOTER -->
-  <Footer />
-</div>
+    <!-- BODY -->
+    <section class="app__body container mx-auto flex justify-center items-center text-center px-2">
+      <h1 class="text-2xl">Four'o Four. You would think I'm hiding something, but I'm not I promise! >_></h1>
+    </section>
+
+    <!-- FOOTER -->
+    <Footer />
+  </div>
 </template>
 
 <script>

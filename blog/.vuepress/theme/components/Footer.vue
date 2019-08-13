@@ -1,10 +1,14 @@
-<template lang="html">
+<template>
   <footer class="app__footer text-white bg-black">
     <div class="footer__block flex justify-center items-center px-3">
       <h6 class="footer__copyright text-xs">2019 Arnold Chand (creativenobu) | powered by <a class="footer__link text-white underline" target="_blank" href="https://vuepress.vuejs.org/">vuepress</a> &amp; <a class="footer__link text-white underline" target="_blank" href="https://tailwindcss.com/">tailwindcss</a></h6>
     </div>
   </footer>
 </template>
+
+<script>
+export default {}
+</script>
 
 <style lang="stylus">
 .app__footer

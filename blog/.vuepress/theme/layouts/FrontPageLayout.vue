@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div>
     <!-- HEADER -->
     <Header :showBanner="true" />
@@ -7,7 +7,7 @@
     <section class="app__body">
       <FrontPagePosts />
     </section>
-    
+
     <!-- FOOTER -->
     <Footer />
   </div>

@@ -1,6 +1,6 @@
 module.exports = {
   title: "CreativeNobu",
-  description: "A blog on hardware, software, thoughts, design, etc.",
+  description: "A blog on hardware, software, thoughts, etc.",
   themeConfig: {
     nav: [
       {

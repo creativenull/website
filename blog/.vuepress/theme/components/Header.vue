@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <header class="app__header font-open">
     <div class="header__menu p-4 flex flex-row justify-between items-center bg-gray-900 shadow-md">
       <a class="text-white no-underline md:hidden" @click="onMenuClick" href="#">{{ menuText }}</a>
@@ -27,7 +27,7 @@
   </header>
 </template>
 
-<script lang="js">
+<script>
 export default {
   props: {
     showBanner: Boolean

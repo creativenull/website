@@ -17,7 +17,7 @@ export default {
   computed: {
     posts() {
       let posts = []
-      
+
       // select only the posts, via frontmatter
       this.$site.pages.forEach(el => {
         if (el.frontmatter.isPost)
