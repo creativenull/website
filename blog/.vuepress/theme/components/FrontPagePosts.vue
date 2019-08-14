@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div v-for="(post, i) in posts" :class="'body__color-post bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
+  <div class="body__color-post">
+    <div v-for="(post, i) in posts" :class="'bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
       <div class="color-post__block container mx-auto font-noto">
         <h1 class="md:text-center">
           <router-link class="text-white text-2xl md:text-3xl hover:underline" :to="post.permalink">{{ post.title }}</router-link>

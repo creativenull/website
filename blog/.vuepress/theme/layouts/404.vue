@@ -4,7 +4,7 @@
     <Header :showBanner="false" />
 
     <!-- BODY -->
-    <section class="app__body container mx-auto flex justify-center items-center text-center px-2">
+    <section class="app__body container mx-auto min-h-screen flex justify-center items-center text-center px-2">
       <h1 class="text-2xl">Four'o Four. You would think I'm hiding something, but I'm not I promise! >_></h1>
     </section>
 
@@ -24,8 +24,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-.app__body
-  min-height: 100vh
-</style>

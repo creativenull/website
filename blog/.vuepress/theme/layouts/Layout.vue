@@ -4,7 +4,7 @@
     <Header :showBanner="false" />
 
     <!-- BODY -->
-    <section class="app__body post font-noto container mx-auto px-2 md:px-5">
+    <section class="app__body min-h-screen post font-noto container mx-auto px-2 md:px-5">
       <Content />
     </section>
 
@@ -26,9 +26,6 @@ export default {
 </script>
 
 <style lang="stylus">
-.app__body
-  min-height: 100vh
-
 .post
   padding: 10px 0
 

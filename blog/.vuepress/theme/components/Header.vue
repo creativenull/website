@@ -20,7 +20,11 @@
 
     <div class="header__banner flex items-center justify-center banner-sm" v-if="showBanner">
       <div class="banner__block">
-        <h1 class="banner__title text-4xl text-center md:text-6xl"><span class="text-blue-600">{{ $site.title.slice(0, 8) }}</span>{{ $site.title.slice(8) }}</h1>
+        <h1 class="banner__title text-4xl text-center md:text-6xl">
+          <a @mouseover="onMouseHoverToggle" @mouseout="onMouseHoverToggle" :class="primaryColor" href="/">
+            <span :class="secondaryColor">{{ $site.title.slice(0, 8) }}</span>{{ $site.title.slice(8) }}
+          </a>
+        </h1>
         <p class="banner__subtitle text-sm text-center font-open-light md:text-xl">{{ $site.description }}</p>
       </div>
     </div>
@@ -36,7 +40,9 @@ export default {
   data() {
     return {
       menuHide: true,
-      menuText: "Menu"
+      menuText: "Menu",
+      primaryColor: "text-white",
+      secondaryColor: "text-blue-600"
     }
   },
 
@@ -50,6 +56,10 @@ export default {
     onMenuClick() {
       this.menuHide = !this.menuHide
       this.menuText = this.menuHide ? "Menu" : "Close"
+    },
+
+    onMouseHoverToggle() {
+      [this.primaryColor, this.secondaryColor] = [this.secondaryColor, this.primaryColor];
     }
   }
 }
