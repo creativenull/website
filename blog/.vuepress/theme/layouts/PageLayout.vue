@@ -59,4 +59,8 @@ export default {
 .page > div > h3 > a
   color: #333
   display: none
+
+.page > div ul
+  margin-left: 30px
+  list-style-type: disc
 </style>
