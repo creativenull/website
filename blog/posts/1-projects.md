@@ -12,8 +12,6 @@ isPost: true
 As an addition to who I am, I will be also posting my projects that I've done during my academic years. Especially those that were highlights of my years in college. There were a lot of projects that I've done, but there were few that I completed or am proud of. Below are my list of projects along with their links for more information, which is also posted to my Github account.
 
 ## University of the Southern Caribbean*
-Actually, I was pursuing my computer science degree at USC - Trinidad and Tobago, before I transferred to Andrews.
-
 ### 0. Computer Science Projects
 #### Technologies
 + C++
@@ -45,7 +43,7 @@ Not really a project to say, but a bunch of assembly codes I wrote during my Mic
 [Link to code](https://github.com/thecreativenobody/au-engr/tree/master/microprocessors)
 
 ### 3. LED Cube Audio Visualizer - Senior Design project
-Of course, my senior design project. It was really fun building such a thing as inputting audio and "converting" it into color representing frequency ranges.
+My senior design project. It was fun building such a project as inputting audio and "converting" it into color representing frequency ranges.
 
 Quick summary, my senior design project was to create a LED cube (4x4x4) and basically the microcontroller will read an input audio signal and will then filter out into three different frequency ranges - highs, mids, lows. Each range is that assigned a color (highs = red, mids = green, lows = blue). So when an audio signal is, for example music, given then it will light up the LED with ever-changing colors in real-time.
 
