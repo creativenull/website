@@ -4,8 +4,7 @@
   "license": "MIT",
   "scripts": {
     "blog:dev": "vuepress dev blog",
-    "blog:build": "vuepress build blog --no-cache",
-    "test": "echo 'Test was successful'"
+    "blog:build": "vuepress build blog --no-cache"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
