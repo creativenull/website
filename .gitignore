@@ -1,5 +1,3 @@
-.vue-lsp
 node_modules/
-yarn.lock
 yarn-error.log
 blog/.vuepress/dist/
