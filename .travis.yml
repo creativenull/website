@@ -9,5 +9,6 @@ script:
   - git clone https://github.com/creativenobu/creativenobu.github.io.git .gh-pages
   - rm -rf .gh-pages/assets
   - cp -rf * .gh-pages/
-  - cd gh-pages/
-  - git add -A && git commit -m "update website"
+  - cd .gh-pages/
+  - git add -A && git commit -m "update website via travis"
+  - git push origin master
