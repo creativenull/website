@@ -11,5 +11,5 @@ script:
   - cp -rf * .gh-pages/
   - cd .gh-pages/
   - git remote add deploy https://$GH_TOKEN@github.com/creativenobu/creativenobu.github.io.git
-  - git add -A && git commit -m "update website via travis"
+  - git add -A && git commit -m "update website, source at creativenobu/website"
   - git push deploy master
