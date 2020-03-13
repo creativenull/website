@@ -27,15 +27,15 @@ export default {
 
 <style lang="stylus">
 .post
-  padding: 10px 0
+  padding: 10px 5px
 
 .post > div > p,
 .post > div > ul,
 .post > div > ol
   margin: 15px 0
   color: #222
-  line-height: 1.5em
-  font-size: 1rem
+  line-height: 2em
+  font-size: 1.2rem
 
 .post > div > h1 > a,
 .post > div > h2 > a,
@@ -44,13 +44,15 @@ export default {
   display: none
 
 .post > div > h1
-  font-size: 1.875rem
+  font-size: 2rem
 
 .post > div > h2
-  font-size: 1.5em
+  font-size: 1.8em
+  font-weight: bold
 
 .post > div > h3
   font-size: 1.25rem
+  font-weight: bold
 
 .post > div > h4
   font-size: 1.125rem

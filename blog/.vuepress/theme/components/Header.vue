@@ -5,15 +5,19 @@
 
       <ul class="menu__list bg-gray-900 hidden md:inline">
         <li v-for="item in $site.themeConfig.nav" class="menu__item md:inline">
-          <a class="menu__link px-2 no-underline text-lg text-white hover:underline" :href="item.link">{{ item.text }}</a>
+          <a class="menu__link px-2 no-underline text-lg text-white hover:underline" :href="item.link">
+            {{ item.text }}
+          </a>
         </li>
       </ul>
     </div>
 
-    <div class="header__menu--mobile text-center shadow-md md:hidden" :class="{'hidden': menuHide}">
+    <div class="header__menu--mobile text-center shadow-md md:hidden" :class="{ hidden: menuHide }">
       <ul class="menu__list--mobile bg-gray-900">
         <li v-for="item in $site.themeConfig.nav" class="menu__item--mobile py-2">
-          <a class="menu__link--mobile px-2 no-underline text-lg text-white hover:underline" :href="item.link">{{ item.text }}</a>
+          <a class="menu__link--mobile px-2 no-underline text-lg text-white hover:underline" :href="item.link">
+            {{ item.text }}
+          </a>
         </li>
       </ul>
     </div>
