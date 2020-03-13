@@ -1,6 +1,6 @@
 <template>
   <div class="body__color-post">
-    <div v-for="(post, i) in posts" :class="'bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
+    <div v-for="(post, i) of posts" :class="'bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
       <div class="color-post__block container mx-auto font-noto">
         <h1 class="md:text-center">
           <router-link
@@ -10,6 +10,7 @@
             {{ post.title }}
           </router-link>
         </h1>
+        <p class="color-post__info py-2 md:text-center font-open-light">{{ post.date }} | {{ post.author }}</p>
       </div>
     </div>
   </div>
@@ -24,22 +25,15 @@ export default {
   },
 
   computed: {
+
+    // Get the post, sort them by latest and get only the first 3 posts
     posts() {
-      let posts = []
-      let count = 0
+      const newPosts = this.$site.pages
+        .map((el) => el.frontmatter.isPost ? el.frontmatter : undefined)
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .slice(0, 3)
 
-      this.$site.pages.forEach((el) => {
-        if (el.frontmatter.isPost && count < 3) {
-          posts.push(el.frontmatter)
-          count++
-        }
-      })
-
-      posts.sort((a, b) => {
-        return new Date(b.date) - new Date(a.date)
-      })
-
-      return posts
+      return newPosts
     }
   }
 }
