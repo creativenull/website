@@ -3,16 +3,17 @@ title: Resume
 layout: PageLayout
 ---
 
-_Software Engineer with 2+ years specializing on building web and mobile applications with a focus on embedded systems and micro-controller applications._
+_Software Engineer with 2+ years specializing on building web and mobile applications with a focus on embedded systems
+and micro-controller applications._
 
 # __Experience__
-__Engineer__
+__Software Engineer__
 
 Cherami Ltd (Trinidad and Tobago) | _Aug 2019 - Present_
 
-_Technologies used_
+_Technologies_
 + HTML/CSS/SASS
-+ PHP/Laravel
++ PHP/Laravel/Lumen
 + UI/UX/Material Design
 + JavaScript/Vue.js/Webpack
 
