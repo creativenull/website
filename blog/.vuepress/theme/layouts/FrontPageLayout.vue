@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- HEADER -->
-    <Header :showBanner="true" />
+    <Header show-banner />
 
     <!-- BODY -->
     <section class="app__body">

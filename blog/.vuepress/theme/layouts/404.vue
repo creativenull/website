@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- HEADER -->
-    <Header :showBanner="false" />
+    <Header />
 
     <!-- BODY -->
     <section class="app__body container mx-auto min-h-screen flex justify-center items-center text-center px-2">

@@ -38,7 +38,10 @@
 <script>
 export default {
   props: {
-    showBanner: Boolean
+    showBanner: {
+      type: Boolean,
+      default: false
+    }
   },
 
   data() {
