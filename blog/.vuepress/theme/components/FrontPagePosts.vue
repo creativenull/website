@@ -1,6 +1,6 @@
 <template>
   <div class="body__color-post">
-    <div v-for="(post, i) of posts" :class="'bg-' + colors[i] + '-800 text-' + colors[i] + '-100'">
+    <div v-for="(post, i) of posts" :class="`${colors[i]} text-white`">
       <div class="color-post__block container mx-auto font-noto">
         <h1 class="md:text-center">
           <router-link
@@ -20,7 +20,11 @@
 export default {
   data() {
     return {
-      colors: ["blue", "green", "red"]
+      colors: [
+        "bg-blue-800",
+        "bg-green-800",
+        "bg-red-800"
+      ]
     }
   },
 
