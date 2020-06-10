@@ -3,8 +3,7 @@ title: Resume
 layout: PageLayout
 ---
 
-_Software Engineer with 2+ years specializing on building web and mobile applications with a focus on embedded systems
-and micro-controller applications._
+_Software Engineer with building web and mobile applications for 2+ years._
 
 # __Experience__
 __Software Engineer__
