@@ -60,6 +60,9 @@ export default {
   color: #333
   display: none
 
+.page > div > * > a
+  text-decoration: underline
+
 .page > div ul
   margin-left: 30px
   list-style-type: disc
