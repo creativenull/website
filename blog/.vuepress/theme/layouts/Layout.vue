@@ -65,4 +65,16 @@ export default {
 .post > div > * > a
   color: #333
   text-decoration: underline
+
+.post > div > table
+  margin: 0 auto
+
+.post > div > table thead
+  padding: 10px
+
+.post > div > table tr
+  border: 1px solid #333
+
+.post > div > table td
+  padding: 10px
 </style>
