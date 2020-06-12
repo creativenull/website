@@ -20,8 +20,10 @@ export default {
 
       // select only the posts, via frontmatter
       this.$site.pages.forEach(el => {
-        if (el.frontmatter.isPost)
+        const isDraft = el.frontmatter.isDraft || false
+        if (el.frontmatter.isPost && !isDraft) {
           posts.push(el.frontmatter)
+        }
       })
 
       // sort array by date

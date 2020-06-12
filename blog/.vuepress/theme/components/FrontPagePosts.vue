@@ -33,7 +33,10 @@ export default {
     // Get the post, sort them by latest and get only the first 3 posts
     posts() {
       const newPosts = this.$site.pages
-        .map((el) => el.frontmatter.isPost ? el.frontmatter : undefined)
+        .map((el) => {
+          const isDraft = el.frontmatter.isDraft || false;
+          return el.frontmatter.isPost && !isDraft ? el.frontmatter : undefined
+        })
         .sort((a, b) => new Date(b.date) - new Date(a.date))
         .slice(0, 3)
 
