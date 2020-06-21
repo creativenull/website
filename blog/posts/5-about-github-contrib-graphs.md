@@ -26,15 +26,27 @@ While the Github help page was very clear on how it would count your commits tow
 how many commits refer to the color of the graph. Nor do any articles that cover this feature on their post. I would remind
 you that this was just a simple search on and I did not really go deep in my search.
 
-So observing my commits per day, I have compiled a small table below to show you how many commits refer to the color
-of the graph.
+::: tip Info
+_Update_: After a little bit more research, and looking around on other github user profiles. I've observed that the
+contributions graphs change given the amount of maximum and minimum commits you've done over the past year. So
+the table below is irrelevant to a set amount of contributions, see updated section below...
+:::
+
+~~So observing my commits per day, I have compiled a small table below to show you how many commits refer to the color
+of the graph.~~
 
 | Commits per Day | Graph Color |
 | --------------- | ----------- |
-| 1 - 19          | Lightest Green |
-| 20 - 39         | Light Green |
-| 40 - 60         | Green |
-| 61 and higher   | Dark Green |
+| ~~1 - 19~~          | ~~Lightest Green~~ |
+| ~~20 - 39~~         | ~~Light Green~~ |
+| ~~40 - 60~~         | ~~Green~~ |
+| ~~61 and higher~~   | ~~Dark Green~~ |
 
 While not the best description on the color, I believe this would really help in knowing how many commits to do in order
 to reach the dark color.
+
+## Update (2020/06/20)
+After looking through other user profiles on Github, it was evident that Github counts the color intensity by what
+your maximum contributions are for one day over the course of a year, and then calculates those intensities accordingly.
+For example, if you made only 20 contributions for one over the course of a year timeline, then that will be assigned
+the most intense color. Whilst, contributing only one for a day with give you the least intense color.
