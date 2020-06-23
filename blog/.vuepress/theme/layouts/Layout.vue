@@ -30,12 +30,18 @@ export default {
   padding: 10px 5px
 
 .post > div > p,
-.post > div > ul,
-.post > div > ol
+.post > div ul,
+.post > div ol
   margin: 15px 0
   color: #222
   line-height: 2em
   font-size: 1.2rem
+
+.post > div ul
+  list-style-type: disc
+
+.post > div li
+  margin-left: 3rem
 
 .post > div > h1 > a,
 .post > div > h2 > a,
@@ -62,7 +68,7 @@ export default {
 .post > div > h4
   color: #333
 
-.post > div > * > a
+.post > div a
   color: #333
   text-decoration: underline
 
