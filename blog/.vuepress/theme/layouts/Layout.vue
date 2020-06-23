@@ -4,7 +4,7 @@
     <Header />
 
     <!-- BODY -->
-    <section class="app__body min-h-screen post font-noto container mx-auto px-2 md:px-5">
+    <section class="app__body min-h-screen post font-noto container mx-auto px-2 md:px-5 md:w-3/5">
       <Content />
     </section>
 
