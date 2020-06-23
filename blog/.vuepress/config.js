@@ -30,7 +30,12 @@ module.exports = {
   plugins: [
     ["vuepress-plugin-container", {
       type: "tip",
-      before: info => `<div class="tip font-open"><p class="tip__title font-bold">${info}</p>`,
+      before: info => `<div class="tip_container font-open"><p class="tip_container__title font-bold">${info}</p>`,
+      after: "</div>",
+    }],
+    ["vuepress-plugin-container", {
+      type: "update",
+      before: () => `<div class="upd_container font-open"><p class="upd_container__title font-bold">Update</p>`,
       after: "</div>",
     }],
   ],
