@@ -1,13 +1,13 @@
 <template>
   <div class="posts" v-if="posts.length != 0">
-    <div class="post" v-for="post in posts">
+    <div class="post my-5" v-for="post in posts">
       <router-link class="post__title" :to="post.permalink">
         <h1>{{ post.title }}</h1>
       </router-link>
       <div class="post__info font-open-light">
         {{ post.date }}
       </div>
-      <p class="post__content">{{ post.description }}... <a :href="post.permalink">Read More</a></p>
+      <p class="post__content">{{ post.description }}... <a class="post__link" :href="post.permalink">Read More</a></p>
     </div>
   </div>
 </template>
@@ -45,14 +45,14 @@ export default {
 
 .post__title
   color: #333
-  text-decoration: none
-  font-size: 1.5rem
-
-.post__title:hover
   text-decoration: underline
+  font-size: 1.5rem
 
 .post__title > h1
   font-weight: normal
+
+.post__link
+  text-decoration: underline
 
 .post > * > a
   color: #333
