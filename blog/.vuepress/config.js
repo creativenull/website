@@ -1,5 +1,5 @@
 module.exports = {
-  title: "CreativeNobu",
+  title: "CreativeKnot",
   description: "A blog on hardware, software, thoughts, etc.",
   themeConfig: {
     nav: [
@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         text: "Github",
-        link: "https://github.com/creativenobu",
+        link: "https://github.com/creativeknot0",
       },
     ],
   },

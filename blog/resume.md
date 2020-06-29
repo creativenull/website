@@ -5,9 +5,6 @@ layout: PageLayout
 
 # Resume
 
-You may request for my resume via [my email](mailto:creativenobu@outlook.com?subject=%5BRequest%5D). Or check out my
-[Linkedin Profile](https://linkedin.com/in/arnoldjchand/).
-
 ## Summary
 _Software Engineer with building web and mobile applications for 2+ years._
 
