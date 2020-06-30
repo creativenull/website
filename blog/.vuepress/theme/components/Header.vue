@@ -47,22 +47,22 @@ export default {
   data() {
     return {
       menuHide: true,
-      menuText: "Menu",
-      primaryColor: "text-white",
-      secondaryColor: "text-blue-600"
+      menuText: 'Menu',
+      primaryColor: 'text-white',
+      secondaryColor: 'text-blue-600'
     }
   },
 
   computed: {
     displayBanner() {
       return this.showBanner
-    }
+    },
   },
 
   methods: {
     onMenuClick() {
       this.menuHide = !this.menuHide
-      this.menuText = this.menuHide ? "Menu" : "Close"
+      this.menuText = this.menuHide ? 'Menu' : 'Close'
     },
 
     onMouseHoverToggle() {
