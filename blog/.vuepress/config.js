@@ -1,27 +1,30 @@
+const username = 'creativenull';
+const themeConfig = {
+  username,
+  nav: [
+    {
+      text: 'Home',
+      link: '/',
+    },
+    {
+      text: 'Resume',
+      link: '/resume',
+    },
+    {
+      text: 'Posts',
+      link: '/posts',
+    },
+    {
+      text: 'Github',
+      link: `https://github.com/${username}`,
+    },
+  ],
+};
+
 module.exports = {
   title: 'CreativeNull',
-  username: 'creativenull',
   description: 'Some random engineering notes, blog, etc',
-  themeConfig: {
-    nav: [
-      {
-        text: 'Home',
-        link: '/',
-      },
-      {
-        text: 'Resume',
-        link: '/resume',
-      },
-      {
-        text: 'Posts',
-        link: '/posts',
-      },
-      {
-        text: 'Github',
-        link: `https://github.com/${this.username}`,
-      },
-    ],
-  },
+  themeConfig,
   postcss: {
     plugins: [
       require('tailwindcss'),
