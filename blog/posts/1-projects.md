@@ -16,7 +16,7 @@ As an addition to who I am, I will be also posting my projects that I've done du
 #### Technologies
 + C++
 
-[Link to code](https://github.com/thecreativenobody/usc-cptr)
+[Link to code](https://github.com/creativenull/usc-cptr)
 
 ## Andrews University
 ### 1. Reverse engineering models - Hold Down Clamp
@@ -26,7 +26,7 @@ Engineering Graphics course, final project was to reverse engineer a real world 
 + SolidWorks
 + Measurement tools - calipers, rulers, etc
 
-[Link to animation and presentation](https://github.com/thecreativenobody/au-engr/tree/master/engineering-graphics)
+[Link to animation and presentation](https://github.com/creativenull/au-engr/tree/master/engineering-graphics)
 
 ### 2. Microprocessor labs
 Not really a project to say, but a bunch of assembly codes I wrote during my Microprocessor course. This includes simple music player, PWM, ADC/DAC, SRAM. Assembly was written for the Freescale HCS12 microcontroller.
@@ -40,7 +40,7 @@ Not really a project to say, but a bunch of assembly codes I wrote during my Mic
 + MOSI/MISO
 + I2C
 
-[Link to code](https://github.com/thecreativenobody/au-engr/tree/master/microprocessors)
+[Link to code](https://github.com/creativenull/au-engr/tree/master/microprocessors)
 
 ### 3. LED Cube Audio Visualizer - Senior Design project
 My senior design project. It was fun building such a project as inputting audio and "converting" it into color representing frequency ranges.
@@ -56,7 +56,7 @@ Quick summary, my senior design project was to create a LED cube (4x4x4) and bas
 + Logic Design (Hand written logic circuit)
 + Project Managment
 
-[Link to presentation](https://github.com/thecreativenobody/au-engr/tree/master/senior-design-project)
+[Link to presentation](https://github.com/creativenull/au-engr/tree/master/senior-design-project)
 
 ## Western Michigan University
 ### 4. Modeling Power - assignments
@@ -66,7 +66,7 @@ Assignments that I did in class, you could think of them as projects since they 
 + Python
 + Matlab
 
-[Link to code](https://github.com/thecreativenobody/wmu-engr/tree/master/modeling-power)
+[Link to code](https://github.com/creativenull/wmu-engr/tree/master/modeling-power)
 
 ### 5. Power Electronics - Final project
 Final project that I did in my Power electronics - dynamic controls class. I was to create a controller for a Buck converter but show them in two ways. The first way was to show by building an analog circuit that would control the buck converter. The second way was to use a micro-controller to control the converter - which I used a PID algorithm for that.
@@ -77,7 +77,7 @@ Final project that I did in my Power electronics - dynamic controls class. I was
 + STM32 micro-controller
 + Power-pole board
 
-[Link to code](https://github.com/thecreativenobody/wmu-engr/tree/master/power-electronics/project-4)
+[Link to code](https://github.com/creativenull/wmu-engr/tree/master/power-electronics/project-4)
 
 ### 6. Micro-controllers - Projects
 Probably the ony time I ever had to work a lot on a class. This class had me occupied all day and did not let me rest, there were a lot of things that were covered. But I did enjoy it and it also helped me get used to what it would be like a fast paced environment. There were 2 projects in total that I had to complete. The first was a simple square wave oscilloscope and the second was a assembly belt motor control. Both were written in C in the IAR Workbench.
@@ -90,4 +90,4 @@ Probably the ony time I ever had to work a lot on a class. This class had me occ
 + SPI
 + I2C
 
-[Link to code](https://github.com/thecreativenobody/wmu-engr/tree/master/micro-controllers)
+[Link to code](https://github.com/creativenull/wmu-engr/tree/master/micro-controllers)
