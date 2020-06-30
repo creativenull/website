@@ -2,9 +2,13 @@
   <footer class="app__footer text-white bg-black">
     <div class="footer__block flex justify-center items-center px-3">
       <h6 class="footer__copyright text-xs">
-        2020 Arnold Chand ({{ $site.username }}) | powered by <a rel="noreferrer" class="footer__link text-white underline"
-          target="_blank" href="https://vuepress.vuejs.org/">vuepress</a> &amp; <a rel="noreferrer"
-          class="footer__link text-white underline" target="_blank" href="https://tailwindcss.com/">tailwindcss</a>
+        2020 Arnold Chand ({{ $site.themeConfig.username }}) | Made with ❤  by
+        <a rel="noreferrer" class="footer__link text-white underline" target="_blank" href="https://vuepress.vuejs.org/">
+          VuePress
+        </a> &amp;
+        <a rel="noreferrer" class="footer__link text-white underline" target="_blank" href="https://tailwindcss.com/">
+          TailwindCSS
+        </a>
       </h6>
     </div>
   </footer>
