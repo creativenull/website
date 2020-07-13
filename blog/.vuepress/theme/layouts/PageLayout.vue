@@ -4,8 +4,8 @@
     <Header />
 
     <!-- BODY -->
-    <section class="app__body min-h-screen page font-noto container mx-auto px-2 md:px-5 md:w-3/5">
-      <Content />
+    <section class="app__body min-h-screen page font-noto container px-2 mx-auto md:w-3/5">
+      <Content class="px-2" />
     </section>
 
     <!-- FOOTER -->
