@@ -12,4 +12,4 @@ script:
   - cd .gh-pages/
   - git remote add deploy https://$GH_TOKEN@github.com/creativenull/creativenull.github.io.git
   - git add -A && git commit -m "update - source at creativenull/website"
-  - git push deploy master
+  - git push deploy main
