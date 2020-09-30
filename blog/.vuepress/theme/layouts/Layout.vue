@@ -69,7 +69,7 @@ export default {
   color: #333
 
 .post > div a
-  color: #333
+  color: #0f57a7
   text-decoration: underline
 
 .post > div > table
