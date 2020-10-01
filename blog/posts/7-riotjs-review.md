@@ -209,7 +209,7 @@ behaviour in the app.
 This was just some of the things I encountered with riot. Overall, it's a great framework to get started with, only, if
 you are an intermediate developer coming from a vue/svelte (something similar to these frameworks) background. I am
 still in the process on using this framework. Currently, I'm building a workout app with it and streaming this on
-[twitch][twitch] 🙂. Feeling free to join me as I keep making these reviews for other frameworks as well.
+[twitch][twitch] 🙂. Feel free to join me as I keep making these reviews for other frameworks as well.
 
 [twitch]: https://twitch.tv/creativenull
 [riot]: https://riot.js.org
