@@ -23,7 +23,7 @@ const themeConfig = {
 
 module.exports = {
   title: 'CreativeNull',
-  description: 'Some random engineering notes, blog, etc',
+  description: 'Random engineering notes, blog, etc',
   themeConfig,
   postcss: {
     plugins: [
