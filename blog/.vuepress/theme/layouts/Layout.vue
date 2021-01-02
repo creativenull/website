@@ -83,4 +83,12 @@ export default {
 
 .post > div > table td
   padding: 10px
+
+.post > div > blockquote
+  margin-top: 20px
+  margin-bottom: 20px
+  margin-left: 20px
+  padding: 10px
+  border-left: solid #333 2px
+  font-size: 0.9rem
 </style>
