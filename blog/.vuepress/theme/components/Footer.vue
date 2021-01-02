@@ -2,7 +2,7 @@
   <footer class="app__footer text-white bg-black">
     <div class="footer__block flex justify-center items-center px-3">
       <h6 class="footer__copyright text-xs">
-        2020 Arnold Chand ({{ $site.themeConfig.username }}) | Made with ❤  by
+        2020 - 2021 Arnold Chand ({{ $site.themeConfig.username }}) | Made with ❤  by
         <a rel="noreferrer" class="footer__link text-white underline" target="_blank" href="https://vuepress.vuejs.org/">
           VuePress
         </a> &amp;
