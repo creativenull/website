@@ -1,11 +1,11 @@
 <template>
   <div class="body__color-post">
-    <div v-for="(post, i) of posts" :class="`${colors[i]} text-white`">
+    <div v-for="(post, i) of posts" :class="`${colors[i]} text-white`" :key="'post'+i">
       <div class="color-post__block container mx-auto font-noto">
         <h1 class="md:text-center">
           <router-link
             :to="post.permalink"
-            class="text-white text-2xl md:text-3xl hover:underline"
+            class="text-white text-2xl md:text-4xl hover:underline"
             >
             {{ post.title }}
           </router-link>
@@ -21,9 +21,9 @@ export default {
   data() {
     return {
       colors: [
-        "bg-blue-800",
-        "bg-green-800",
-        "bg-red-800"
+        "bg-blue-900",
+        "bg-green-900",
+        "bg-red-900"
       ]
     }
   },
@@ -48,5 +48,5 @@ export default {
 
 <style lang="stylus">
 .color-post__block
-  padding: 75px 10px
+  padding: 100px 10px
 </style>

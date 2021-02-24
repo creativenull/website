@@ -1,9 +1,9 @@
 <template>
   <header class="app__header font-open">
-    <div class="header__menu p-4 flex flex-row justify-between items-center bg-gray-900 shadow-md">
+    <div class="header__menu p-4 flex flex-row justify-between items-center bg-gray-800 shadow-md">
       <a class="text-white no-underline md:hidden" @click="onMenuClick" href="#">{{ menuText }}</a>
 
-      <ul class="menu__list bg-gray-900 hidden md:inline">
+      <ul class="menu__list hidden md:inline">
         <li v-for="item in $site.themeConfig.nav" class="menu__item md:inline">
           <a class="menu__link px-2 no-underline text-lg text-white hover:underline" :href="item.link">
             {{ item.text }}
@@ -24,7 +24,7 @@
 
     <div class="header__banner flex items-center justify-center banner-sm" v-if="showBanner">
       <div class="banner__block">
-        <h1 class="banner__title text-4xl text-center md:text-6xl">
+        <h1 class="banner__title text-4xl text-center md:text-9xl">
           <a @mouseover="onMouseHoverToggle" @mouseout="onMouseHoverToggle" :class="primaryColor" href="/">
             <span :class="secondaryColor">{{ $site.title.slice(0, 8) }}</span>{{ $site.title.slice(8) }}
           </a>
@@ -49,7 +49,7 @@ export default {
       menuHide: true,
       menuText: 'Menu',
       primaryColor: 'text-white',
-      secondaryColor: 'text-blue-600'
+      secondaryColor: 'text-blue-500'
     }
   },
 
