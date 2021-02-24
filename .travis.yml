@@ -8,12 +8,12 @@ node_js:
   - 12
 
 script:
+  - npm install
   - npm run build
-  - cd blog/.vuepress/dist
   - git clone https://github.com/creativenull/creativenull.github.io.git .gh-pages
-  - rm -rf .gh-pages/assets
-  - cp -rf * .gh-pages/
-  - cd .gh-pages/
+  - rm -rfv .gh-pages/assets
+  - cp -rfv blog/.vuepress/dist/* ./.gh-pages
+  - cd ./.gh-pages
   - git remote add deploy https://$GH_TOKEN@github.com/creativenull/creativenull.github.io.git
-  - git add -A && git commit -m 'feat - updated from creativenull/website'
-  - git push deploy master
+  - git add -A && git commit -m 'updated from creativenull/website'
+  - git push deploy main
