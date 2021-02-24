@@ -1,10 +1,14 @@
 language: node_js
 
+branches:
+  only:
+    - main
+
 node_js:
   - 12
 
 script:
-  - npm run blog:build
+  - npm run build
   - cd blog/.vuepress/dist
   - git clone https://github.com/creativenull/creativenull.github.io.git .gh-pages
   - rm -rf .gh-pages/assets
