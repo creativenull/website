@@ -14,7 +14,7 @@
     "postcss": "^7.0.35",
     "postcss-import": "^14.0.0",
     "postcss-loader": "^5.0.0",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.24.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "vuepress": "^1.8.2"
   }
